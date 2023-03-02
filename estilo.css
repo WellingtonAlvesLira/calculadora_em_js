@@ -1,0 +1,50 @@
+
+#calculadora{
+    background-image: url('https://img.freepik.com/fotos-gratis/calculadora-de-vista-superior-e-quadro-de-notebook_23-2149103980.jpg?w=740&t=st=1677703811~exp=1677704411~hmac=883cd14c5733fed6d924096b12a301ffad42a3b27c098ecdaaeb1bf58d548023');
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    margin: 30px auto;
+    
+}
+table{
+    border-radius: 5px;
+    margin: 10px auto;
+    background-color: black;
+    box-shadow: 15px 20px 10px #ededf8
+}
+.caixa{
+    width: 180px;
+    height: 30px;
+    position: relative;
+    left: 50px;
+    margin: 5px;
+    padding-top: 5px;
+    float: left;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    letter-spacing: 8px;
+}
+
+#sinal_igual{
+    float: left; 
+    position: relative; 
+    left: 50px; 
+    color: red;
+}
+
+button{
+    width: 50px;
+    height: 60px;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: #114da7;
+    color: white;
+}
+
+#titulo_calculadora{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    letter-spacing: 12px;
+}

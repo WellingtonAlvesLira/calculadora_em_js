@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt--br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculadora</title>
+    <script src="js.js"></script>
+</head>
+<body>
+        <div id="calculadora">
+            <div id="entrada" class="caixa"></div>
+            <span id="sinal_igual">=</span>
+            <div class="caixa" id="total"></div>
+                <table> 
+                    <tr>
+                        <td><button  onclick="limpar()">C</td>
+                        <td><button  onclick="voltar()"><</td>
+                        <td><button  onclick="inserir('/')">/</button></td>
+                        <td><button  onclick="inserir('*')">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="inserir(7)">7</button></td>
+                        <td><button onclick="inserir(8)">8</button></td>
+                        <td><button onclick="inserir(9)">9</button></td>
+                        <td><button onclick="inserir('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button  onclick="inserir(4)">4</button></td>
+                        <td><button  onclick="inserir(5)">5</button></td>
+                        <td><button  onclick="inserir(6)">6</button></td>
+                        <td><button  onclick="inserir('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button  onclick="inserir(1)">1</button></td>
+                        <td><button  onclick="inserir(2)">2</button></td>
+                        <td><button  onclick="inserir(3)">3</button></td>
+                        <td><button  onclick="calcular()">=</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="inserir(0)">0</button></td>
+                        <td><button onclick="inserir('.')">.</button></td>
+             
+                    </tr>
+                </table>
+                <div>
+                    <h1 id="titulo_calculadora">Calculadora <span style="color: red;">JS</span></h1>
+                </div>       
+        </div>
+
+</body>
+</html>
